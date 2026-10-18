@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f1ea;
+    color: #222;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header {
+    background: #2f4a3c;
+    color: #f4f1ea;
+    padding: 12px 20px;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    color: #f4f1ea;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+nav .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #24382e;
+    min-width: 150px;
+    padding: 6px 0;
+}
+
+nav .dropdown-content a {
+    display: block;
+    padding: 6px 12px;
+    margin: 0;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    max-width: 800px;
+    margin: 24px auto;
+    padding: 0 16px 30px 16px;
+}
+
+h2 {
+    color: #2f4a3c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 8px;
+    background: #2f4a3c;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+
+.new {
+    font-size: 0.8em;
+    background: #c4a35a;
+    padding: 1px 6px;
+}
+
+.version-switch {
+    background: #24382e;
+    padding: 6px 20px;
+    text-align: right;
+}
+
+.version-switch a {
+    color: #f4f1ea;
+    text-decoration: none;
+    padding: 4px 10px;
+    margin-left: 6px;
+    border: 1px solid #f4f1ea;
+    font-size: 0.9em;
+}
+
+.version-switch a.active {
+    background: #f4f1ea;
+    color: #24382e;
+}
+
+.photo-spot,
+.screenshot-spot {
+    background: #eee;
+    border: 1px dashed #999;
+    color: #666;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 10px 0;
+}
+
+.photo-spot {
+    max-width: 200px;
+}
+
+.slide {
+    display: none;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 40%;
+    background: #2f4a3c;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+.dots {
+    text-align: center;
+    margin: 8px 0 16px 0;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #bbb;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #2f4a3c;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.85em;
+    padding: 12px;
+    border-top: 1px solid #ccc;
+}

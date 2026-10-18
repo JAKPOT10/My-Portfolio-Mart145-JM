@@ -1,0 +1,28 @@
+.navbar-custom {
+    background-color: #2f4a3c;
+}
+.version-switch {
+    background: #24382e;
+    padding: 6px 20px;
+    text-align: right;
+}
+.version-switch a {
+    color: #f4f1ea;
+    text-decoration: none;
+    padding: 4px 10px;
+    margin-left: 6px;
+    border: 1px solid #f4f1ea;
+}
+.version-switch a.active {
+    background: #f4f1ea;
+    color: #24382e;
+}
+.photo-spot, .screenshot-spot {
+    background: #eee;
+    border: 1px dashed #999;
+    color: #666;
+    text-align: center;
+    padding: 30px 10px;
+    margin: 10px 0;
+}
+.photo-spot { max-width: 200px; }

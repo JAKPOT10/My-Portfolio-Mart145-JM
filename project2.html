@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css project 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="version-switch">
+    <a href="project2.html" class="active">CSS</a>
+    <a href="bootstrap/project2.html">Bootstrap</a>
+</div>
+
+<header>
+    <h1>Jak Mortensen</h1>
+            <nav>
+        <a href="index.html">Home</a>
+        <span class="dropdown">
+            <a href="projects.html">Ecommerce Site</a>
+            <span class="dropdown-content">
+                <a href="project1.html">One Stop Shop UI Design</a>
+                <a href="project2.html">Ecommerce Site</a>
+            </span>
+        </span>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+        <div class="project">
+        <h3>Ecommerce Site</h3>
+        <img src="images/ecommerce1.png" alt="ecommerce1">
+        <p>For the CSCI 440 Database Systems, I created a full model of a small ecommerce site. This was hosted locally
+            using Ammps and had a database to store user credentials, order history, current carts, and inventory/item information.
+            This project was focused on learning the fundamentals of Database Usage for real applications.
+        </p>
+        <img src="images/ecommerce2.png" alt="ecommerce2">
+        <p>The database for this site had the following tables,</p>
+        <p>Ordered Items: for tracking which items were ordered by which user.</p>
+        <p>Orders: For each set of items ordered at a single time for a single user.</p>
+        <p>PriceHistory: For logging the changes in price made in the database.</p>
+        <p>Products: List of current products, prices, and stock.</p>
+        <p>SavedCart: Logs of items current in the carts of individual users.</p>
+        <p>Users: Usernames, userIds, and hashed passwords of each unique user.</p>
+    </div>
+</main>
+
+<footer>Portfolio</footer>
+</body>
+</html>
